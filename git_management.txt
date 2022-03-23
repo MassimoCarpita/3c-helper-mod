@@ -1,0 +1,15 @@
+• Consiglio di Dani:
+Fai 'git remote add NAME CyberJunkyURL' per aggiungere la possibilità di fare gestione remota anche su quell'URL
+e poter fare pull anche da lì per sfruttare le modifiche.
+Se devi fare pull dal fork originale (CyberJunky) non fare diretto pull ma fai fetch (crea un nuovo branch) e poi
+merge (così gestisci manualmente i conflitti nei file aggiornati in caso).
+Visualizza tutte le repository (comprese quelle su un'altra remote) con 'git branch -r'.
+Per accedere al branch che ti interessa fai 'git checkout branch'.
+Per fare il merge fai 'git merge branch --allow-unrelated-histories'
+Fare attenzione dopo a gestire tutti i conflitti di merge!!!
+
+
+
+Più in generale vedi qua:
+https://www.atlassian.com/git/tutorials/syncing/git-fetch#:~:text=In%20review%2C%20git%20fetch%20is,of%20collaborative%20git%20work%20flows.
+https://www.varonis.com/blog/git-branching
